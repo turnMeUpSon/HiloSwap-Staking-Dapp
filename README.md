@@ -1,5 +1,9 @@
 # HiloSwap-Staking-Dapp
 
+![Image](https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp/blob/main/Screenshot%20from%202022-12-24%2014-59-45.png)
+![Image](https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp/blob/main/Screenshot%20from%202022-12-24%2015-59-06.png)
+![Image](https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp/blob/main/Screenshot%20from%202022-12-24%2015-59-27.png)
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
