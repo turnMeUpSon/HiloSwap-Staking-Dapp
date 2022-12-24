@@ -67,7 +67,7 @@ contract Staking {
             symbol,
             tokenAddress,
             usdPrice,
-            usdPrice / ethPrice,
+            usdPrice / ethUsdPrice,
             apy
         );
 
@@ -111,7 +111,7 @@ contract Staking {
             true
         );
 
-        positionIdsByAddress[msg.sener].push(currentPositionId);
+        positionIdsByAddress[msg.sender].push(currentPositionId);
         currentPositionId += 1;
         stakedTokens[symbol] += tokenQuantity;
     }
