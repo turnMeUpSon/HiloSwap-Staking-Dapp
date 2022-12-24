@@ -5,7 +5,7 @@ describe("Staking", () => {
   beforeEach(async () => {
     [owner, signer2] = await ethers.getSigners();
     Staking = await ethers.getContractFactory("Staking", owner);
-    staking = await Staking.deploy(187848, {
+    staking = await Staking.deploy(121976, {
       value: ethers.utils.parseEther("100"),
     });
 
@@ -13,7 +13,7 @@ describe("Staking", () => {
     chainlink = await Chainlink.deploy();
     staking
       .connect(owner)
-      .addToken("Chainlink", "LINK", chainlink.address, 867, 1500);
+      .addToken("Chainlink", "LINK", chainlink.address, 591, 1500);
     await chainlink
       .connect(signer2)
       .approve(staking.address, ethers.utils.parseEther("100"));
@@ -33,7 +33,7 @@ describe("Staking", () => {
       expect(token.name).to.equal("Chainlink");
       expect(token.symbol).to.equal("LINK");
       expect(token.tokenAddress).to.equal(chainlink.address);
-      expect(token.usdPrice).to.equal(867);
+      expect(token.usdPrice).to.equal(591);
       expect(token.ethPrice).to.equal(0);
       expect(token.apy).to.equal(1500);
     });

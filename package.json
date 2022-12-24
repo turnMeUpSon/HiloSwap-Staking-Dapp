@@ -3,9 +3,36 @@
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "@openzeppelin/contracts": "^4.8.0",
+    "bootstrap": "^5.2.3",
     "chai": "^4.3.7",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.2",
-    "hardhat": "^2.12.4"
-  }
+    "hardhat": "^2.12.4",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6"
+  },
+  "name": "hiloswap-v1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp/issues"
+  },
+  "homepage": "https://github.com/turnMeUpSon/HiloSwap-Staking-Dapp#readme"
 }
